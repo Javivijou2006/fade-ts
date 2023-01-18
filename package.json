@@ -1,0 +1,27 @@
+{
+  "name": "@rbxts/fade-ts",
+  "version": "2.0.1",
+  "description": "A light package that fades all descendants of a element at the same time smoothly, with just one function",
+  "main": "out/init.lua",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["fade-ts", "fadets", "roblox-ts", "roblox typescript", "roblox ui", "roblox-ts ui", "fade"],
+  "author": "NebularScript#8439",
+  "license": "ISC",
+  "types": "out/index.d.ts",
+  "files": [
+    "out",
+    "!**/*.tsbuildinfo"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^2.0.4-types.1",
+    "@rbxts/types": "^1.0.657",
+    "typescript": "^4.9.4"
+  }
+}
